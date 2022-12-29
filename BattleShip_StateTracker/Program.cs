@@ -18,7 +18,6 @@ namespace BattleShip_StateTracker
 
             // Display the player data
             player.ShowPlayerDetail(playerDetail.Id);
-            Console.ReadKey();
 
             //Create a board game
             BoardController board = new BoardController();
